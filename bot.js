@@ -77,7 +77,7 @@ request({
 
    message.channel.startTyping()
    setTimeout(() => {
-    message.channel.send(">name" + q.replace("mimikyu's","mimikyu"))
+    message.channel.send(">name " + q.replace("mimikyu's","mimikyu"))
  
      message.channel.stopTyping()
    },50)
